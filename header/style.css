@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    margin: 0;
+}
+header nav{
+    background-color: #333;
+    padding: 16px;
+    
+}
+/* combination of selector
+descent selector */
+header nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 16px;
+}
+h2{
+    margin-top: 20px;
+}
+.desc p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.desc ul{
+    margin-left: 30px;
+
+}
+
+img{
+    width: 100%;
+}
+.technology{
+    width: 200px;
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ .technology h3{
+    margin: 16px 0 16px 0;
+}
+.technology p{
+    margin-bottom: 10px;
+} 

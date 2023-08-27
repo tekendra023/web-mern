@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        body{
+            background-color: #D3D3D3;
+            /* height: 100vh; */
+
+        }
+        /* *-universal selector  */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            border: 1px solid;
+            width: 310px;
+            background-color: aliceblue;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        img{
+            /* padding:4px;
+            border-radius: 14px;
+            margin-bottom: 10px;
+           */
+           max-width: 100%;
+           padding: 5px;
+           border-radius: 10px ;
+           border-bottom: 10px;
+        }
+        /* span{
+
+            margin-left: 16px;
+            border: 1px solid;
+            border-radius: 10px;
+            padding: 5px;
+            margin-top: 5px;
+            font-size: 12px;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bold; 
+
+        } */
+        .inline{
+            display: inline-block;
+            margin-left: 16px;
+
+        }
+        .tag{
+        
+            border: 1px solid;
+            border-radius: 10px;
+            margin-top: 5px;
+            font-size: 12px;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bold; 
+            padding: 2px 6px 2px 6px;
+
+            /* padding: top right bottom left  */
+
+
+        }
+
+        h2{
+            margin-left: 16px ;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* font-family: 'Times New Roman', Times, serif; -by default in html */
+            font-family: sans-serif;
+        }
+        p{
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        button{
+            margin-bottom: 15px;
+            margin-left: 100px;
+            border-radius: 15px;
+            color: rgb(56, 56, 231);
+            background-color: #B0E0E6;
+            font-weight: bold;
+            border: none;
+            font-size: 12px;
+            padding: 10px 15px 10px 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="https://picsum.photos/300/230" alt="">
+        <div>
+            <p class=" inline tag">Nature</p>
+            <p class=" inline tag">Love</p>
+        </div>
+        <h2>
+            Lago Di Bries
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quae earum, placeat, iure provident odio soluta
+            veritatis repellat deserunt, unde perspiciatis. Non, possimus facere. Ipsum reprehenderit eius porro
+            veritatis blanditiis.
+        </p>
+        <button>Read More</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+
+        }
+        .box.red{
+            background-color: red;
+        }
+
+        .red p {
+            color: red;
+        }
+        /* combined selectors */
+        /* and selectors */
+        p.red{
+            color: red;
+        }
+        #bg-black{
+            background-color: black;
+        }
+        /* body div{
+            background-color: bisque; }*/
+        
+        /* div{
+            background-color: aqua;
+        }
+        div{
+            background-color: blue;
+        }
+        div{
+            background-color: red; }*/
+        
+    </style>
+</head>
+
+<body>
+    <!-- ctrl + `=cmd -->
+    <h1>Specificity score class >tags</h1>
+    <!-- .box*5>{box-$} -->
+    <div class="box red" id="bg-black">box-1</div>
+    <div class="box">box-2</div>
+    <div class="box">box-3</div>
+    <div class="box">box-4</div>
+    <div class="box">box-5</div>
+
+    <div class="red">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum aliquid alias amet ea optio non deleniti
+            soluta in ipsa,<span class="red"> Span tag</span> repudiandae culpa quasi modi harum enim dolorum laboriosam et praesentium ipsam!
+        </p>
+    </div>
+
+
+
+</body>
+
+</html>

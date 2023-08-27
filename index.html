@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        /* 
+            css syntax
+
+
+            <selector> {
+                <css-property> : <css-property-value>;
+                <css-property> : <css-property-value>;
+                <css-property> : <css-property-value>;
+            }
+
+            selector
+                - tag /element
+                - id---use .
+                - class---use #
+        */
+        h1 {
+            color: red;
+            text-align: center;
+        }
+
+        .nav {
+            margin-left: 16px;
+        }
+        .social{
+            margin-left: 700px;
+        }
+        .soc{
+            padding-left: 16px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #main-img {
+            height: 200px;
+            width: 200px;
+            margin-left: 5px;
+        }
+
+        .tiny-img {
+            width: 150px;
+            height: 150px;
+            margin-left: 15px;
+            border: 5px solid orangered;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th{
+            border: 1px solid;
+            padding: 16px;
+            text-transform: capitalize;
+        }
+        td{
+            border: 1px solid;
+            padding: 16px;
+            
+        }
+        .table-data{
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- comment : ctrl + / -->
+    <!-- absolute path: works for sepecific devices -->
+    <!-- <a href="C:\Users\Asus\Desktop\web">About</a> -->
+
+
+    <!-- realtive path -->
+    <!-- <a href="about.html">About</a> -->
+
+    <!-- ./ represents parent directory/folder of our current file  -->
+    <a href="./index.html">Home</a>
+    <a class="nav" href="./about-us.html">About</a>
+    <a class="nav" href="./courses/mern.html">Mern</a>
+    <a class="nav" href="./courses/upcoming/data-science.html">Data-Science</a>
+    <a class="nav" href="./contact-us.html">Contact</a>
+    <a class="social" href="https://www.facebook.com/" target="_blank">Facebook</a>
+    <a class="soc" href="https://www.google.com/" target="_blank">Google</a>
+    <a class="soc" href="https://www.youtube.com/" target="_blank">Youtube</a>
+
+    <!-- h1 is the main headin of our website -->
+    <!-- there should be only one h1 per page - for SEO -->
+
+    <h1>Web Development</h1>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, eaque vero recusandae ducimus, dicta libero qui
+        velit et non ullam reprehenderit sapiente officia molestias, laudantium quidem molestiae pariatur quam quo.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, culpa tempore quas, sed nesciunt odio illo et
+        possimus inventore animi blanditiis reiciendis vitae modi ea quia perspiciatis in distinctio ipsam?
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quisquam sed voluptate aliquid quod
+        dignissimos fugiat veniam assumenda sunt! Dolores magni, dicta nisi delectus sequi hic asperiores laudantium
+        consectetur laborum.
+    </p>
+
+    <!-- id for unique design
+    class for common design -->
+
+    <img id="main-img" src="./assets/img-1.jpg" alt="">
+    <img class="tiny-img" src="./assets/img-2.jpg" alt="">
+    <img class="tiny-img" src="./assets/img-3.jpg" alt="">
+
+    <ul>
+        <li>
+            <h2>
+                <a
+                    href="https://www.google.com/search?q=html&oq=html&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIxgnGIoFMgYIAhBFGDwyBggDEEUYPTIGCAQQRRg8MgYIBRBFGEEyBggGEEUYQTIGCAcQRRhB0gEIMTUxOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">
+                    html
+                </a>
+            </h2>
+            <ul>
+                <li>
+                    <!-- <h1>Element</h1> -->
+                    <h3>Element</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                </li>
+                <li>
+                    <h3>Attribute</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h2>css</h2>
+        </li>
+        <li>
+            <h2>javascript</h2>
+        </li>
+    </ul>
+
+    <!-- <h2>Paths</h2>
+    <ul>
+        <li>Absolute path eg: C:\Users\Asus\Desktop\web</li>
+        <li>Relative path</li>
+    </ul> -->
+
+    <!-- table  -->
+    <h2>Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table-data">ram</td>
+                <td>ram@gmail.com</td>
+            </tr>
+            <tr>
+                <td class="table-data">hari</td>
+                <td>hari@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+      <!-- Box-Sizing  -->
+    <h2>
+        <a href="./box-modal/box-model.html">Box-Sizing</a>
+    </h2>
+
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+- element / tags   and their ending tags
+- attribute    they further describe the tags

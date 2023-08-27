@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            /* margin: 0;
+            padding: 0; */
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 16px;
+        }
+
+        .parent {
+            width: 400px;
+            height: 200px;
+            background-color: aqua;
+        }
+
+        .child {
+            border: 1px solid;
+            padding: 16px;
+            /* width: 200px;  */
+            width: 50%;
+            background-color: bisque;
+            /* height: 100px; */
+            height: 50%;
+        }
+
+        .parent .red {
+            background-color: blue;
+            background-color: gold;
+            background-color: red;
+        }
+
+        .card {
+            border: 1px solid;
+            display: inline-block;
+            padding: 1rem;
+        }
+
+        .cards .red {
+            border: 1px solid red;
+        }
+        .desc{
+            border: 1px solid;
+            margin-top: 32px;
+            margin-top: 2em;
+            margin-top: 2em;
+            padding: 16px;
+            padding: 1em;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Measurement Units</h1>
+    <ul>
+        <li>px</li>
+        <li>% (doesnt work properly on padding and margin, use it on height and width)</li>
+        <li>em</li>
+        <li>rem</li>
+        <li>vh</li>
+    </ul>
+
+
+    <h2>Parents</h2>
+    <div class="parent">
+        <div class="child">
+            child
+        </div>
+        <div class="child red">
+            child
+        </div>
+    </div>
+
+
+    <h2>Testimonials</h2>
+    <div class="cards">
+        <div class="card">
+            Ram
+        </div>
+        <div class="card red">
+            Hari
+        </div>
+        <div class="card">
+            Hari
+        </div>
+    </div>
+    <div class="big-font">
+        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, explicabo iste. Rerum fuga cupiditate quaerat
+            saepe nihil reiciendis voluptatibus! Quasi magni voluptatem nam officiis iusto vitae incidunt corporis,
+            voluptatum quis?</p>
+    </div>
+</body>
+
+</html>
