@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex</title>
 </head>
+<style>
+    /* css reset */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    ul{
+        list-style-type: none;
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    ul{ 
+        /* display: inline-block;  */
+        border: 1px solid;
+        /* dispaly flex to align item in x and y axis */
+        display: flex;
+        /* properites of flex */
+        gap: 1rem;
+        /* justify is used for x-axis */
+        /* justify-content: space-around; */
+        /* justify-content: end; */
+        justify-content: center;
+        /* align-item for y axis */
+        align-items: center;
+        height: 100px;
+
+    }
+    .flexbox{
+        background-color: antiquewhite;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+
+    }
+    .flex-item{
+        height: 100px;
+        width: 100px;
+        border: 1px solid;
+    }
+</style>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="parent flexbox">
+        <!-- .child.flex-item*3>{item-$} -->
+        
+        <div class="child flex-item">flex-item1</div>
+        <div class="child flex-item">flex-item2</div>
+        <div class="child flex-item">flex-item3</div>
+    </div>
     
 </body>
 </html>
